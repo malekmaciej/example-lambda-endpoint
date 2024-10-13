@@ -1,7 +1,7 @@
 # Lambda function with https endpoint
 module "lambda_function" {
   source  = "terraform-aws-modules/lambda/aws"
-  version = "7.4.0"
+  version = "7.14.0"
 
   function_name              = var.name
   description                = var.lambda_description
